@@ -28,7 +28,6 @@ export class UsuariosComponent implements OnInit {
   ngOnInit() {
  
     this.cargarUsuarios();
-    this.llamaObser();
     //esto escucha el emit el cual ya sabe que se cambio la imagen, para q refresque ;los resultado y muetre la iamgen
      this._modalUploadService.notificacion
     .subscribe( resp => this.cargarUsuarios() ); 
@@ -88,18 +87,7 @@ export class UsuariosComponent implements OnInit {
             });
 
   }
-  
-  llamaObser() {
-    this._usuarioService.cargarClientes( )
-    .subscribe( (cliente: ContactoCliente) => {
-
-      this.cliente = cliente;
-      console.log( "jajajajaja");
-      console.log( this.cliente);
-      console.log( this.cliente.ccelular);
-    });
-  }
-  
+    
   borrarUsuario( usuario: Usuario ) {
 
     if ( usuario._id === this._usuarioService.usuario._id ) {

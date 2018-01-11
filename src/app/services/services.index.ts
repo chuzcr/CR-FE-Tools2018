@@ -1,3 +1,4 @@
+export { AdminGuard } from './guards/admin.guard';
 export { MedicoService } from './medico/medico.service';
 export { HospitalService } from './hospital.service';
 
@@ -9,4 +10,4 @@ export { SidebarService } from './shared/sidebar.service';
 export { SharedService } from './shared/shared.service';
 export { SettingsService } from './settings/settings.service';
 export { UsuarioService } from './usuario/usuario.service';
-
+ 

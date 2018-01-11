@@ -11,7 +11,7 @@ declare var swal: any;
 @Component({
   selector: 'app-hospitales',
   templateUrl: './hospitales.component.html',
-  styleUrls: ['./hospitales.component.css']
+  styles: []
 })
 export class HospitalesComponent implements OnInit {
 
@@ -45,7 +45,6 @@ export class HospitalesComponent implements OnInit {
     this._hospitalService.cargarHospitales()
             .subscribe( hospitales => {
               this.hospitales = hospitales;
-              console.log( this.hospitales);
             });
   }
 

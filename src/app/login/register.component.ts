@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms'; 
+import { Router } from '@angular/router';
 
 import swal from 'sweetalert'; 
 import { UsuarioService } from '../services/services.index';
 import { Usuario } from '../models/usuario.model';
-import { Router } from '@angular/router';
+
 
 declare function init_plugins();
 
@@ -65,7 +66,6 @@ export class RegisterComponent implements OnInit {
 
     this._usuarioService.crearUsuario(usuario)
         .subscribe( resp => {
-          console.log(resp);
           this.router.navigate(['/login']);
         });
   }

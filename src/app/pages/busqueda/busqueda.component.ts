@@ -33,7 +33,6 @@ export class BusquedaComponent implements OnInit {
 
     this.http.get( url)
              .subscribe( (resp: any) => {
-               console.log( resp);
                this.hospitales = resp.hospitales;
                this.medicos = resp.medicos;
                this.usuarios = resp.usuarios;

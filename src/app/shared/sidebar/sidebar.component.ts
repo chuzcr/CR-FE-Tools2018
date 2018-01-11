@@ -1,5 +1,5 @@
 import { Usuario } from './../../models/usuario.model';
-import { SidebarService,UsuarioService } from './../../services/services.index';
+import { SidebarService, UsuarioService } from './../../services/services.index';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

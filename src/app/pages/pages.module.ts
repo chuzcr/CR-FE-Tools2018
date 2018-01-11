@@ -14,13 +14,13 @@ import { PAGES_ROUTES } from './pages.routes';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgessComponent } from './progess/progess.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
-import { PagesComponent } from './pages.component';
+/* import { PagesComponent } from './pages.component'; */
 import { IncrementarComponent } from '../components/incrementar/incrementar.component';
 import { AccountSettingdComponent } from './account-settingd/account-settingd.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+/* import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component'; */
 import { HospitalesComponent } from './hospitales/hospitales.component';
 import { MedicosComponent } from './medicos/medicos.component';
 import { MedicoComponent } from './medicos/medico.component';
@@ -28,7 +28,6 @@ import { ClienteComponent } from './cliente/cliente.component';
 import { GraficoDonaComponent } from './../components/grafico-dona/grafico-dona.component';
 import { ContactoClienteComponent } from './contacto-cliente/contacto-cliente.component';
 import { DocumentosClienteComponent } from './documentos-cliente/documentos-cliente.component';
-import { ProductsComponent } from './products/products.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
@@ -36,7 +35,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     DashboardComponent,
     ProgessComponent,
     Graficas1Component,
-    PagesComponent,
+    /* PagesComponent, */
     IncrementarComponent,
     GraficoDonaComponent,
     AccountSettingdComponent,
@@ -44,14 +43,13 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     RxjsComponent,
     ProfileComponent,
     UsuariosComponent,
-    ModalUploadComponent,
+   /*  ModalUploadComponent, */
     HospitalesComponent,
     MedicosComponent,
     MedicoComponent,
     ClienteComponent,
     ContactoClienteComponent,
     DocumentosClienteComponent,
-    ProductsComponent,
     BusquedaComponent
   ],
   imports: [
@@ -66,7 +64,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     DashboardComponent,
     ProgessComponent,
     Graficas1Component,
-    PagesComponent
+  /*   PagesComponent */
   ],
   providers: []
 })

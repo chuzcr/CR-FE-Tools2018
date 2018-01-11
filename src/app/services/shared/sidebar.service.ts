@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class SidebarService {
-  menu: any = [];
+  menu: any[] = [];
 
 /*   menu: any = [
     {
